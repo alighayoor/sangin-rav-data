@@ -35697,10 +35697,25 @@
  ],
  "releases": {
   "data-v1": "https://github.com/alighayoor/sangin-rav-data/releases/download/data-v1/",
-  "data-v2": "https://github.com/alighayoor/sangin-rav-data/releases/download/data-v2/"
+  "data-v2": "https://github.com/alighayoor/sangin-rav-data/releases/download/data-v2/",
+  "corridor-v1": "https://github.com/alighayoor/sangin-rav-data/releases/download/corridor-v1/"
  },
  "shards": {
   "data-v1": 1000,
   "data-v2": 310
+ },
+ "corridor": {
+  "_comment": "بستهٔ کریدور سراسری برای سفر بین دو یا چند شهر — اختیاری است؛ بدون آن مسیریابی شهری دست‌نخورده کار می‌کند (D-129)",
+  "format": "sanginrav.corridor.v1",
+  "release_tag": "corridor-v1",
+  "file": "corridor/corridor.sgz",
+  "bytes": 14313868,
+  "sha256": "25faa961951028d3a864aad12f776850cd7059166c1684a2dc1ed291b57f6ce4",
+  "nodes": 1049505,
+  "edges": 1081279,
+  "km": 89115.8,
+  "gateway_cities": 1198,
+  "far_cities": 89,
+  "scc_lost_cities": 23
  }
 }
